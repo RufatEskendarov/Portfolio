@@ -2,14 +2,13 @@
 
 ## Description
 
-- This project was created to practice the knowledge gained in the course. 
-- The project contains a short description of my projects, links to them and to the source code itself. 
+- This project was created to practice the knowledge gained in the course.
+- The project contains a short description of my projects, links to them and to the source code itself.
 - This project should allow a potential employer to understand my level of knowledge and the range of technologies that I own.
-
 
 ## Installation
 
-This project was deployed via GitHub. Link:  https://rufateskendarov.github.io/Portfolio/
+This project was deployed via GitHub. Link: https://rufateskendarov.github.io/Portfolio/
 Also, if you want to review the components in more detail, go to my repository. Link: https://github.com/RufatEskendarov/Portfolio
 No additional installation required
 
@@ -18,9 +17,10 @@ No additional installation required
 This website is adapted for PC, Tablets and Smartphones.
 Check out the screenshots below:
 PC:
-__________________________________________________________________________________________________________________________
-![PC1](./img/PC1.PNG)
+![PC1](./img/PC1.PNG) ; ![PC2](./img/PC2.PNG) ; ![PC3](./img/pc3.PNG)
 
+Iphone 12 Pro:
+![Iphone](./img/IP12pr.PNG); ![Iphone](./img/ip12pr2.PNG)
 
 ## Credits
 
@@ -30,13 +30,11 @@ To animate the blinking text, a video tutorial from YouTube was used. Please see
 
 In accordance with https://choosealicense.com/licenses/gpl-3.0/
 
-
-
 ## Features
 
 - @media query
 - CSS animation
-- Semantic HTML 
+- Semantic HTML
 
 ## How to Contribute
 
