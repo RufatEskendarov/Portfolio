@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* ++++++++++++++++FOOTER ANIMATION+++++++++++++++++++++++++ */
+.container {
+  background-color: rgb(8, 8, 8);
+  font-family: Arial, sans-serif;
+}
+
+h4 {
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+h1 span,
+h4 span {
+  opacity: 0.1;
+  animation-name: glowing;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+}
+
+h4 span:nth-child(1) {
+  animation-delay: 0.05s;
+}
+h4 span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+h4 span:nth-child(3) {
+  animation-delay: 0.15s;
+}
+h4 span:nth-child(4) {
+  animation-delay: 0.2s;
+}
+h4 span:nth-child(5) {
+  animation-delay: 0.25s;
+}
+h4 span:nth-child(6) {
+  animation-delay: 0.3s;
+}
+h4 span:nth-child(7) {
+  animation-delay: 0.35s;
+}
+h4 span:nth-child(8) {
+  animation-delay: 0.4s;
+}
+h4 span:nth-child(9) {
+  animation-delay: 0.45s;
+}
+h4 span:nth-child(10) {
+  animation-delay: 0.5s;
+}
+h4 span:nth-child(11) {
+  animation-delay: 0.55s;
+}
+h4 span:nth-child(12) {
+  animation-delay: 0.6s;
+}
+h4 span:nth-child(13) {
+  animation-delay: 0.65s;
+}
+h4 span:nth-child(14) {
+  animation-delay: 0.7s;
+}
+h4 span:nth-child(15) {
+  animation-delay: 0.75s;
+}
+h4 span:nth-child(16) {
+  animation-delay: 0.8s;
+}
+
+@keyframes glowing {
+  0%,
+  100% {
+    opacity: 1;
+    /* filter: blur(2px); */
+    text-shadow: 0 0 10px #f00, 0 0 20px #f00, 0 0 40px #f00, 0 0 80px #f00,
+      0 0 160px #f00, 0 0 320px #f00, 0 0 640px #f00;
+  }
+  7%,
+  93% {
+    opacity: 0.1;
+    filter: blur(0);
+    text-shadow: none;
+  }
+}
+
+/*===================== HEADER ANIMATION====================== */
+.wrap {
+  font-family: Impact;
+}
+
+.wrap span {
+  display: block;
+  background: url("../img/fire.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: fire 1s linear infinite;
+}
+
+@keyframes fire {
+  0% {
+    background-position: 0% 10%;
+  }
+  5.5% {
+    background-position: 10% 20%;
+  }
+  12% {
+    background-position: 20% 30%;
+  }
+  18.5% {
+    background-position: 40% 50%;
+  }
+  25% {
+    background-position: 60% 70%;
+  }
+  31.5% {
+    background-position: 80% 90%;
+  }
+  38% {
+    background-position: 90% 100%;
+  }
+  44.5% {
+    background-position: 100% -90%;
+  }
+  48% {
+    background-position: -90% -80%;
+  }
+  54.5% {
+    background-position: -80% -70%;
+  }
+  61% {
+    background-position: -70% -60%;
+  }
+  67.5% {
+    background-position: -60% -50%;
+  }
+  74% {
+    background-position: -50% -40%;
+  }
+  80.5% {
+    background-position: -40% -30%;
+  }
+  87% {
+    background-position: -30% -20%;
+  }
+  93.5% {
+    background-position: -20% -10%;
+  }
+  100% {
+    background-position: -10% 0%;
+  }
+  0% {
+    background-position: 0% 10%;
+  }
+}

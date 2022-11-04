@@ -1,0 +1,501 @@
+/* ============GENERAL STYLES(Group assignment)================ */
+/* ----Body features and whole application's background --*/
+body {
+  background-color: rgb(8, 8, 8);
+  text-align: justify;
+}
+
+/* -----General STyles for About ME, Projects and Contact My sections----*/
+.contact-me,
+.about-me,
+.section-project {
+  border: 2px azure solid;
+  border-radius: 15px;
+  margin: 20px;
+  height: auto;
+  width: 97.65%;
+  background: linear-gradient(90deg, #000000, #525151);
+}
+
+/* ----Anchors styling in About me section(LinkedIn) and Projects (Repo, WebSite)-------- */
+p1 a,
+p3 a {
+  color: rgb(55, 58, 202);
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: bold;
+}
+/* ----Anchors styling on hover for About me section(LinkedIn) and Projects (Repo, WebSite)-------- */
+p1 a:hover,
+p3 a:hover {
+  color: rgb(173, 174, 252);
+  filter: blur(1px);
+  text-shadow: 0 0px 3px rgb(67, 67, 255);
+}
+
+/* ---Heading write styles for  "About Me, projects and Contact me" sections---- */
+h3 {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-family: Arial;
+  font-weight: 1000;
+  color: grey;
+  margin-left: 3.5%;
+}
+
+/* -----Divider line inside sections----- */
+hr {
+  width: 94%;
+  position: relative;
+  left: 3.3%;
+}
+
+/* ============HEADER======================= */
+/* ++++++++++Navigation Bar+++++++++*/
+/* --Section above NAV (Fire animation section styling)--- */
+.top-section {
+  margin-top: 10px;
+  font-weight: 1000;
+  font-size: 90px;
+  font-weight: 600px;
+  border: none;
+  text-align: center;
+}
+
+/* -------Nav bar demensions and styling----- */
+nav {
+  border-radius: 15px;
+  margin: 20px;
+  margin-top: 10px;
+  border: 2px azure solid;
+  height: 80px;
+  color: rgb(195, 199, 199);
+  font-family: Impact;
+  display: flex;
+  justify-content: end;
+
+  background: linear-gradient(90deg, #000000, #525151);
+}
+/* ----Welcome message in Nav bar----- */
+nav h1 {
+  margin-right: 7%;
+  font-size: 20px;
+  font-family: cambria;
+  margin-top: 15px;
+  padding: 15px;
+}
+
+/* -----Styles for About Me, Project and Contac Me hot buttons---- */
+nav a {
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 40px;
+  font-weight: 450;
+  margin-top: 15px;
+  color: grey;
+}
+
+/* ----Neon lihgt on hover toHot buttons--- */
+nav a:hover {
+  color: rgb(173, 174, 252);
+  filter: blur(1px);
+  text-shadow: 0 0px 20px rgb(67, 67, 255);
+}
+
+/* =================MAIN SECTION============================= */
+
+/*+++++++SECTION About ME+++++++++++ */
+
+/* ---Text and IMG wrap Box's styles--- */
+.about-me-display {
+  width: 96%;
+  display: flex;
+  margin: 20px;
+}
+
+/*--About me text box;s styles---  */
+.about-me--text {
+  letter-spacing: 1.5px;
+  width: 80%;
+  margin-right: 20px;
+}
+
+/* ---Text Style for About me Section---- */
+p1 {
+  margin-left: 40px;
+  width: 100%;
+  font-size: 26px;
+  font-style: italic;
+  color: azure;
+  text-align: justify;
+}
+
+/* ---Features for Box with My IMG-- */
+.about-me--img {
+  border: none;
+  border-radius: 15px;
+  width: 18%;
+}
+
+/* ---Photo's features for About me section--- */
+.about-me-display img {
+  border-radius: 15px;
+  border: 2px azure solid;
+}
+
+/* ================MY PROJECTS SECTION================== */
+
+/* ---Wrap Box's style for all project Cards----*/
+.project-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* ++++++First project CARD(bigger than others)+++++ */
+.project-card--1 {
+  margin: 20px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  border: none;
+}
+
+/* ---1ST project card top(head)--- */
+.project-card--head {
+  width: 100%;
+  height: auto;
+  border: 1px rgb(157, 161, 161) solid;
+  border-radius: 15px 15px 0px 0px;
+  margin: none;
+  background-color: rgb(8, 8, 8);
+}
+
+/* ---1ST project CARD ---Project name on top--- */
+.project-card--head h4 {
+  margin: 15px 0 15px 0;
+  letter-spacing: 2px;
+  width: 100%;
+  font-size: 52px;
+  font-weight: none;
+  font-family: Impact;
+  color: azure;
+  text-align: center;
+  border-bottom: none;
+  margin: none;
+}
+
+/* ---1ST project Card ---Box for IMG--- */
+.project-card--img {
+  border: 1px rgb(157, 161, 161) solid;
+  border-bottom: none;
+  border-top: none;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  background-color: rgb(8, 8, 8);
+}
+
+/* ---1ST project Card ---Project IMG styling--- */
+.project-card--img img {
+  width: 100%;
+  height: auto;
+  border-radius: none;
+  border: none;
+  border-bottom: 1px rgb(157, 161, 161) solid;
+  border-top: 1px rgb(157, 161, 161) solid;
+}
+
+/* ---1ST project Card ---Anchor for IMG--- */
+.project-card--img a {
+  border-radius: none;
+  border: none;
+}
+
+/* ------PROJECT CARD----DESCRIPTION: style---- */
+h7 {
+  margin-top: 0;
+  width: 100%;
+  text-align: left;
+  color: #525151;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* ---1ST project Card ---Text Box's style--- */
+.project-card--text {
+  border: 1px rgb(157, 161, 161) solid;
+  border-radius: 0px 0px 15px 15px;
+  height: auto;
+  width: 100%;
+  padding: 15px;
+  border-top: none;
+  background-color: rgb(10, 10, 10);
+}
+
+/* ---Project Card's text styling--- */
+p7 {
+  width: 100%;
+  font-size: 26px;
+  font-style: italic;
+  color: azure;
+  text-align: justify;
+  margin-top: 30px;
+}
+
+/* ---Project Card's Anchor text styling--- */
+p7 a {
+  color: rgb(90, 88, 88);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* ---Project Card's Anchor on hover styling--- */
+p7 a:hover {
+  color: rgb(189, 182, 182);
+  filter: blur(1px);
+  text-shadow: 0 0px 3px rgb(85, 85, 87);
+}
+
+/* ---Project Card--Space between Anchors (repo and Website)-- */
+p3 {
+  word-spacing: 20px;
+}
+
+/*---Projecr card styling for another pojects (lower size)--*/
+.project-card {
+  margin: 20px;
+  width: 46.58%;
+  display: flexbox;
+  flex-direction: column;
+  height: auto;
+  border: none;
+}
+
+/* =============CONTACT ME Section================ */
+
+/* ---Contact Me--FoRM (BOX) Styling--- */
+.contact-me--form {
+  height: auto;
+  margin: 20px;
+}
+
+/* ----Contact ME--Divider Boxs' styling--- */
+.contact-me--form div {
+  height: auto;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---Contact Me-- Labeles-Name,Phone, Mail and etc.style-- */
+.contact-me--form div label {
+  width: 100px;
+  margin-right: 10px;
+  display: inline-block;
+  text-align: right;
+  color: rgb(103, 107, 107);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* -----Contact Me--Inputs styling----- */
+.contact-me--form div input {
+  width: 25%;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px black solid;
+  background-color: rgb(167, 166, 166);
+}
+
+/* ---Contact Me-- Style for Textarea Input---- */
+#textarea {
+  width: 25%;
+  height: 60px;
+}
+
+/* ---Contact Me-- Form SUBMIT BTN styling--- */
+button {
+  width: 100px;
+  height: 25px;
+  color: #525151;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: rgb(167, 166, 166);
+  cursor: pointer;
+}
+
+/* ---Contact Me--Placeholders styling---- */
+::placeholder {
+  color: rgb(216, 216, 226);
+  font-size: 15px;
+}
+
+/* ---Contact Me-- BTN on hover style---- */
+button:hover,
+.contact-me--form input:hover {
+  filter: blur(0.5px);
+  color: red;
+
+  background-color: rgb(230, 185, 185);
+  border: 2px rgb(211, 57, 57) solid;
+  box-shadow: 0 0 3px 2px rgb(168, 25, 25);
+}
+
+/* ---Contact Me-- Pressed BTN style---- */
+button:active:focus,
+.contact-me--form input:active:focus {
+  filter: blur(0.5px);
+  color: rgb(8, 136, 14);
+
+  background-color: rgb(112, 233, 118);
+  border: 2px rgb(54, 221, 63) solid;
+  box-shadow: 0 0 3px 2px rgb(10, 167, 49);
+}
+
+/* =============FOOTER SECTION================ */
+/* -----Footer STYLE----------- */
+footer {
+  margin: 0 20px 0px 20px;
+  background: linear-gradient(90deg, #000000, #525151);
+  border: 2px azure solid;
+  font-size: 52px;
+  border-radius: 15px;
+  margin-top: 14px;
+}
+
+/* ===========SCROLL KIT STYLES=============== */
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 1px 10px 5px grey;
+  border-radius: 15px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  height: 20px;
+  border-radius: 15px;
+  background-clip: content-box;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1px 2px;
+  background-color: red;
+  background-image: border;
+  background-image: linear-gradient(360deg, rgb(8, 8, 8) 80%, red 20%);
+  background-image: ;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(
+    360deg,
+    rgb(8, 8, 8) 80%,
+    rgb(168, 25, 25) 20%
+  );
+}
+
+/* =================Adoptation for Tablet========= */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  nav a {
+    margin-right: 10px;
+    font-size: 22px;
+  }
+  .project-card--1,
+  .project-card {
+    width: 95%;
+  }
+}
+
+/* =================Adoptation for Tablet========= */
+@media screen and (max-width: 768px) {
+  .top-section,
+  .wrap {
+    font-size: 40px;
+  }
+  nav {
+    width: 99%;
+    margin: 3px;
+  }
+  nav h1 {
+    font-size: 13px;
+  }
+  nav a {
+    margin-right: 7px;
+    font-size: 15px;
+  }
+
+  .about-me-display {
+    width: 98%;
+    margin: 3px;
+  }
+
+  .about-me {
+    margin: 3px;
+  }
+
+  .about-me--text {
+    margin: 3px;
+    width: 50%;
+  }
+  .about-me--text a,
+  .about-me--text p1 {
+    font-size: 13px;
+    width: 50%;
+    margin: 3px;
+  }
+  .project-card--1,
+  .project-card {
+    width: 95%;
+  }
+
+  .about-me--img {
+    width: 50%;
+  }
+  .about-me--img img {
+    width: 90%;
+    margin-left: 5px;
+  }
+
+  .section-project,
+  .contact-me {
+    width: 98%;
+    margin: 3px;
+  }
+
+  h7,
+  p7 {
+    font-size: 13px;
+  }
+
+  p3 a {
+    font-size: 15px;
+  }
+
+  .contact-me--form {
+    width: 100%;
+    font-size: 10px;
+  }
+  .contact-me--form div {
+    width: 98%;
+  }
+
+  .contact-me--form div input {
+    width: 55%;
+  }
+
+  footer {
+    font-size: 28px;
+    width: 98%;
+    margin: 3px;
+  }
+}
