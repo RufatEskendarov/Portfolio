@@ -200,7 +200,7 @@ p1 {
 }
 
 /* ---1ST project Card ---Project IMG styling--- */
-.project-card--img img {
+.project-card--main img {
   width: 100%;
   height: auto;
   border-radius: none;
@@ -208,6 +208,16 @@ p1 {
   border-bottom: 1px rgb(157, 161, 161) solid;
   border-top: 1px rgb(157, 161, 161) solid;
 }
+
+.project-card--img img {
+  width: 860px;
+  height: 440px;
+  border-radius: none;
+  border: none;
+  border-bottom: 1px rgb(157, 161, 161) solid;
+  border-top: 1px rgb(157, 161, 161) solid;
+}
+/* ======IMG Styling============= */
 
 /* ---1ST project Card ---Anchor for IMG--- */
 .project-card--img a {
